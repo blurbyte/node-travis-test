@@ -1,0 +1,27 @@
+.banner {
+  background: #fff;
+  width: 100%;
+  height: 7.3rem;
+  border-bottom: 1px solid #908e89;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+  padding-left: 2.4rem;
+}
+
+.description {
+  font-family: 'OpenSans Light', Arial, Helvetica, sans-serif;
+  color: #908e89;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  cursor: default;
+  display: block;
+  height: 4rem;
+  line-height: 4rem;
+  border-left: 1px solid #908e89;
+  padding-left: 1.4rem;
+  margin-left: 1.4rem;
+}

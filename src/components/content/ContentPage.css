@@ -1,0 +1,45 @@
+.wrapper {
+ width: 100%;
+ /*window height minus header bar height*/
+ height: calc(100vh - 7.3rem);
+ background: #e5e5e5;
+ padding: 2.4rem;
+}
+
+.tile {
+  background: #fff;
+  border-top: 3px solid #908e89;
+  max-width: 40rem;
+}
+
+.tile-border-wrapper {
+  border: 1px solid #dfdfde;
+  border-top: none;
+  padding: 1.4rem;
+}
+
+.main-header {
+  composes: main-header from '../../styles/styles.css';
+}
+
+.main-paragraph {
+  composes: main-paragraph from '../../styles/styles.css';
+}
+
+.secondary-header {
+  composes: secondary-header from '../../styles/styles.css';
+}
+
+.social-links-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'OpenSans Light', Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  color: #444;
+  line-height: 1.4;
+}
+
+.text-link {
+  composes: link from '../../styles/styles.css';
+}
