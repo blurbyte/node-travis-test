@@ -1,5 +1,5 @@
 {
-  "name": "smart-svg-icons",
+  "name": "node-travis-test",
   "version": "1.0.0",
   "description": "Travis CI test",
   "scripts": {

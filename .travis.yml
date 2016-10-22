@@ -1,7 +1,7 @@
 before_script:
   - npm install
 script:
-  - npm run test
+  - npm test
   - npm run lint
 language: node_js
 env:
