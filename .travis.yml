@@ -1,0 +1,11 @@
+before_script:
+  - npm install
+script: npm run test
+language: node_js
+env:
+  - PORT=7777
+node_js:
+  - "6"
+  - "5.9.1"
+  - "4"
+  - "0.12"
