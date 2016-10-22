@@ -1,7 +1,7 @@
 {
   "name": "smart-svg-icons",
   "version": "1.0.0",
-  "description": "Smart SVG icons Library with React.",
+  "description": "Travis CI test",
   "scripts": {
     "pretutorial-start": "npm run remove-dist",
     "tutorial-start": "babel-node tools/tutorialStart.js",
@@ -25,9 +25,7 @@
   },
   "keywords": [
     "react",
-    "css-modules",
-    "svg",
-    "icons"
+    "travis"
   ],
   "author": "blurbyte",
   "license": "MIT",
