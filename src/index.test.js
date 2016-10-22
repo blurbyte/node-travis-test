@@ -4,6 +4,6 @@ import {expect} from 'chai';
 
 describe('Dummy environment test', () => {
   it('should always be true', () => {
-    expect(1).to.not.equal(0);
+    expect(1).to.not.equal(1);
   });
 });
