@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Travis CI test",
   "scripts": {
-    "start": "npm run remove-dist && npm run build && node server.js",
+    "start": "node server.js",
     "start-message": "babel-node tools/startMessage.js",
     "prestart:dev": "npm-run-all --parallel start-message remove-dist",
     "start:dev": "npm-run-all --parallel  open:src lint:watch test:watch",
