@@ -12,3 +12,12 @@ node_js:
 deploy:
   provider: azure_web_apps
   skip_cleanup: true
+
+  #Set up environment variables in repo's Travis CI settings
+  #AZURE_WA_USERNAME
+  #AZURE_WA_PASSWORD
+  #AZURE_WA_SITE
+
+  #Additional resources regarding deployments:
+  #https://docs.travis-ci.com/user/deployment/azure-web-apps/
+  #http://www.microsoft.com/developerblog/real-life-code/2015/09/30/travis-azure.html
