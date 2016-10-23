@@ -8,7 +8,7 @@ const ContentPage = () => (
       <div className={styles['tile-border-wrapper']}>
       <section>
         <h1 className={styles['main-header']}>Node.js Travis CI demo application</h1>
-        <p className={styles['main-paragraph']}>Simple Node.js in React application to test Travis CI with GitHub and Azure CI.</p>
+        <p className={styles['main-paragraph']}>Simple Node.js in React application to test Travis CI with GitHub and Azure CI. It pushes build stright to Azure if all tests are passed.</p>
       </section>
       </div>
     </article>
