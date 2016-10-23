@@ -5,9 +5,8 @@ script:
   - npm run lint
 language: node_js
 env:
-  - PORT=7777
+  - PORT=3000
 node_js:
-  - "6"
-  - "5.9.1"
-#  - "4"
-#  - "0.12"
+  - "6.9.0"
+deploy:
+  provider: azure_web_apps
