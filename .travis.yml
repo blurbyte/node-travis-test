@@ -3,7 +3,6 @@ before_script:
 script:
   - npm test
   - npm run lint
-  - npm run build
 language: node_js
 env:
   - PORT=3000
@@ -11,4 +10,3 @@ node_js:
   - "6.9.0"
 deploy:
   provider: azure_web_apps
-  skip_cleanup: true
